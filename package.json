@@ -1,0 +1,16 @@
+{
+  "name": "pnpm-install-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:npm": "rm -rf node_modules && npm i && node .",
+    "test:pnpm": "rm -rf node_modules && pnpm i && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "6.26.0"
+  }
+}

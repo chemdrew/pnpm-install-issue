@@ -5,7 +5,7 @@
 ## npm=success
 
 ```
-> npm run test:pnpm
+> npm run test:npm
 ```
 
 ## pnpm=error
